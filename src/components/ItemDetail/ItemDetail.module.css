@@ -1,0 +1,9 @@
+.card{
+    border: solid black;
+    width: fit-content;
+    background-color: lightsalmon;
+}
+
+.imagen{
+    width: 300px;
+}

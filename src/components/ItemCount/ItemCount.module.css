@@ -1,0 +1,13 @@
+.contadorContainer{
+    border: solid black;
+    width: fit-content;
+    background-color: antiquewhite;
+
+}
+
+
+.count{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}

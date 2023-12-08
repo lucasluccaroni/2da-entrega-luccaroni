@@ -1,0 +1,15 @@
+.navbar{
+    border: solid black;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: solid blue;
+    background-color: lightcoral;
+}
