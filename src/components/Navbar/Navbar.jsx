@@ -3,7 +3,7 @@ import CartWidget from "../CartWidget/CartWidget"
 const Navbar = () =>{
     return(
         <nav className={estilos.navbar} >
-            <h1>Ecommerce</h1>
+            <h1>Retro-Store</h1>
             <section className={estilos.links}>
                 <button> Celulares </button>
                 <button> Tablets</button>
