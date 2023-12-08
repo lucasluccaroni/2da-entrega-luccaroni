@@ -7,8 +7,8 @@ const ItemDetail = ({name, category, img, price, description, stock}) =>{
             <h1> {name} </h1>
             <p> Categoria: {category} </p>
             <img src={img} className={estilos.imagen}  />
-            <h3> {price} </h3>
-            <p> Descripcion:{description} </p>
+            <h3> ${price} </h3>
+            <p> Descripcion: {description} </p>
             <ItemCount stock={stock} />
 
         </div>

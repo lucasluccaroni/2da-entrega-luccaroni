@@ -1,13 +1,15 @@
 import estilos from "./Navbar.module.css"
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from "react-router-dom"
+
 const Navbar = () =>{
     return(
         <nav className={estilos.navbar} >
-            <h1>Retro-Store</h1>
+            <Link to="/" className={estilos.logo} >Retro-Store</Link>
             <section className={estilos.links}>
-                <button> Celulares </button>
-                <button> Tablets</button>
-                <button> Notebooks </button>
+                <Link to={"/category/sistemas-operativos"} className={estilos.botones} > Sistemas Operativos </Link>
+                <Link to= {"/category/programs"} className={estilos.botones} > Programas</Link>
+                <Link to={"/category/cd"} className={estilos.botones} > CD's </Link>
                 <CartWidget />
             </section>
         </nav>
