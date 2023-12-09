@@ -15,7 +15,7 @@ const products = [
         category: 'programs',
         img: "../public/images/encarta-98.jpg",
         stock: 16,
-        description:'Encarta Encyclopedia Edicion 1998'
+        description:'Encarta Encyclopedia Edición 1998'
     },
     { 
         id: '3',
@@ -24,7 +24,7 @@ const products = [
         category: 'programs',
         img:"../public/images/microsoft-oceans.jpg",
         stock: 0,
-        description:'Microsoft Oceans Edicion 1995'
+        description:'Microsoft Oceans Edición 1995'
     }
 ]
 

@@ -1,5 +1,6 @@
 .card{
     width: 200px;
+    height: 340px;
     background-color: lightblue;
     border: solid 2px;
     border-radius: 5px;
@@ -8,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .botones{
@@ -24,4 +26,8 @@
 }
 .botones:hover {
     transform: scale(1.05);
+}
+
+.image{
+    width: 150px;
 }

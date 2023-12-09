@@ -1,9 +1,25 @@
 .card{
     border: solid black;
     width: fit-content;
-    background-color: lightsalmon;
+    height: fit-content;
+    background-color: lightblue;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.imagen{
+.image{
     width: 300px;
+}
+
+.text{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+    text-decoration: underline;
 }

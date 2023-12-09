@@ -1,7 +1,11 @@
-.contenedor{
+.cardContainer{
     height: 100vw;
     background-color: lightcyan;
-    border-top: solid 1px;
     display: flex;
     justify-content: center;
+}
+
+.loading{
+    width: fit-content;
+    font-style: italic;
 }

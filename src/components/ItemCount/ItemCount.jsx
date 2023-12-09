@@ -20,10 +20,10 @@ const ItemCount = ({initialValue = 1, stock, onAdd}) =>{
 
     return(
         <div className={estilos.contadorContainer} >
-            <h3 className={estilos.count}> {count} </h3>
-            <button onClick={decrement} >-</button>
-            <button onClick={()=> onAdd(count)} >Agregar al carrito</button>
-            <button onClick={increment} >+</button>
+            <h2 className={estilos.count}> {count} </h2>
+            <button onClick={decrement}  className={estilos.boton} >-</button>
+            <button onClick={()=> onAdd(count)} className={estilos.boton} >Agregar al carrito</button>
+            <button onClick={increment} className={estilos.boton} >+</button>
         </div>
     )
 }

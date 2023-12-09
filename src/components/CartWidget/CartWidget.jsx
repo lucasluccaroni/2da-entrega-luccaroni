@@ -1,9 +1,10 @@
-import logo from "../../assets/react.svg"
+import logo from "../../../public/images/shopping-cart.png"
+import estilos from "./CartWidget.module.css"
 
 const CartWidget = () =>{
     return(
-        <div>
-            <img src={logo} />
+        <div className={estilos.cart}>
+            <img src={logo} className={estilos.image} />
             0
         </div>
     )

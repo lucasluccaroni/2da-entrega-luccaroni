@@ -4,11 +4,11 @@ import estilos from "./ItemDetail.module.css"
 const ItemDetail = ({name, category, img, price, description, stock}) =>{
     return(
         <div className={estilos.card} >
-            <h1> {name} </h1>
-            <p> Categoria: {category} </p>
-            <img src={img} className={estilos.imagen}  />
-            <h3> ${price} </h3>
-            <p> Descripcion: {description} </p>
+            <h1 className={estilos.title} > {name} </h1>
+            <p className={estilos.text} > Categoria: {category} </p>
+            <img src={img} className={estilos.image}  />
+            <h2> ${price} </h2>
+            <p className={estilos.text} > Descripción: {description} </p>
             <ItemCount stock={stock} />
 
         </div>
